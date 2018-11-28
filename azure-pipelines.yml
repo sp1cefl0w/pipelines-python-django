@@ -3,7 +3,7 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
-job:
+jobs:
 - job: 'Test'
   pool:
     vmImage: 'Ubuntu 16.04' # other options: 'macOS-10.13', 'vs2017-win2016'
@@ -11,7 +11,7 @@ job:
     matrix:
       Python27:
         python.version: '2.7'
-      Python35
+      Python35:
         python.version: '3.5'
       Python36:
         python.version: '3.6'
