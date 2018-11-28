@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/ian57312/arrakis/_apis/build/status/sp1cefl0w.pipelines-python-django)](https://dev.azure.com/ian57312/arrakis/_build/latest?definitionId=1)
 # Sample Python app for Azure Pipelines docs
 
 For information on how to use this repository, see [Python](https://docs.microsoft.com/azure/devops/pipelines/languages/python).
